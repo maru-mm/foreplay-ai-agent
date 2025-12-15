@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node
+node_modules/
+npm-debug.log
+
+# Generated files
+*.json
+*.csv
+*.xlsx
+*.txt
+!requirements.txt
+!requirements_gui.txt
+!package.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Documentation that's not needed in container
+*.md
+!README.md
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+

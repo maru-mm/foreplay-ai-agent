@@ -1,0 +1,65 @@
+# Fly.io ignore file - ottimizza il deployment
+
+# Development
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation (non necessaria in produzione)
+INSTALLATION.md
+QUICKSTART.md
+START_HERE.md
+HOW_TO_USE_GUI.md
+BOARDS_GUIDE.md
+TRANSCRIPT_GUIDE.md
+CHANGELOG.md
+FILES_CREATED.md
+PROJECT_SUMMARY.md
+
+# Generated files
+*.json
+*.csv
+*.xlsx
+*.txt
+!requirements.txt
+!requirements_gui.txt
+
+# Test files
+*_test.py
+test_*.py
+simple_test.py
+examples.py
+
+# Scripts non necessari in produzione
+create-files.sh
+get_*.py
+find_*.py
+select_board.py
+analyze_*.py
+
+# Node (non serve per la GUI Python)
+node_modules/
+src/
+tsconfig.json
+package.json
+package-lock.json
+
+# Git
+.git/
+.gitignore
+
+# Misc
+.DS_Store
+*.log
+
